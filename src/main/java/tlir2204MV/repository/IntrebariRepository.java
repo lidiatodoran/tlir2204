@@ -94,15 +94,15 @@ public class IntrebariRepository {
 		
 		}
 		catch (IOException e) {
-			// TODO: handle exception
+			System.out.println("Nu se poate face crearea!");
 		}
-		finally{
-			try {
-				br.close();
-			} catch (IOException e) {
-				// TODO: handle exception
-			}
-		}
+//		finally{
+//			try {
+//				br.close();
+//			} catch (IOException e) {
+//				System.out.println("Nu merge");
+//			}
+//		}
 		
 		return intrebari;
 	}

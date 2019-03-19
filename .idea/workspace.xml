@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c13ee0e-8190-48ff-81f8-da7814a33155" name="Default Changelist" comment="" />
+    <list default="true" id="7c13ee0e-8190-48ff-81f8-da7814a33155" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tlir2204MV/repository/IntrebariRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tlir2204MV/repository/IntrebariRepository.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,188 +24,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/tlir2204MV">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>tlir2204MV</OriginalElement>
-              <nodes>
-                <node x="851.5" y="736.5">tlir2204MV.exception.NotAbleToCreateTestException</node>
-                <node x="362.5" y="981.0">tlir2204MV.controller.AppController</node>
-                <node x="46.5" y="736.5">tlir2204MV.model.Test</node>
-                <node x="280.375" y="1270.0">tlir2204MV.main.StartApp</node>
-                <node x="245.5" y="714.0">tlir2204MV.model.Statistica</node>
-                <node x="106.8834134615384" y="0.0">tlir2204MV.exception.InputValidationFailedException</node>
-                <node x="524.5" y="637.0">tlir2204MV.repository.IntrebariRepository</node>
-                <node x="208.4146634615384" y="125.0">tlir2204MV.util.InputValidation</node>
-                <node x="1203.9871794871794" y="414.5">tlir2204MV.exception.DuplicateIntrebareException</node>
-                <node x="167.4146634615384" y="337.0">tlir2204MV.model.Intrebare</node>
-                <node x="1146.5" y="736.5">tlir2204MV.exception.NotAbleToCreateStatisticsException</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.NotAbleToCreateTestException">
-                  <point x="41.5" y="-37.5" />
-                  <point x="404.875" y="1230.0" />
-                  <point x="1057.75" y="1230.0" />
-                  <point x="68.75" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.controller.AppController">
-                  <point x="24.899999999999977" y="-37.5" />
-                  <point x="388.275" y="1220.0" />
-                  <point x="589.75" y="1220.0" />
-                  <point x="75.75" y="104.5" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Statistica">
-                  <point x="-8.299999999999955" y="-37.5" />
-                  <point x="355.07500000000005" y="1210.0" />
-                  <point x="288.5" y="1210.0" />
-                  <point x="-86.0" y="60.0" />
-                </edge>
-                <edge source="tlir2204MV.util.InputValidation" target="tlir2204MV.exception.InputValidationFailedException">
-                  <point x="0.0" y="-81.0" />
-                  <point x="337.9146634615384" y="100.0" />
-                  <point x="312.3834134615384" y="100.0" />
-                  <point x="68.5" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Statistica">
-                  <point x="-67.33333333333326" y="-104.5" />
-                  <point x="446.66666666666674" y="941.0" />
-                  <point x="374.5" y="941.0" />
-                  <point x="0.0" y="60.0" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.repository.IntrebariRepository">
-                  <point x="67.33333333333337" y="-104.5" />
-                  <point x="581.3333333333334" y="941.0" />
-                  <point x="754.75" y="941.0" />
-                  <point x="76.75" y="137.0" />
-                </edge>
-                <edge source="tlir2204MV.model.Intrebare" target="tlir2204MV.util.InputValidation">
-                  <point x="0.0" y="-115.0" />
-                  <point x="0.0" y="81.0" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.exception.NotAbleToCreateTestException">
-                  <point x="101.0" y="-104.5" />
-                  <point x="615.0" y="951.0" />
-                  <point x="920.25" y="951.0" />
-                  <point x="-68.75" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.repository.IntrebariRepository" target="tlir2204MV.model.Intrebare">
-                  <point x="-115.125" y="-137.0" />
-                  <point x="562.875" y="607.0" />
-                  <point x="401.8521634615384" y="607.0" />
-                  <point x="63.9375" y="115.0" />
-                </edge>
-                <edge source="tlir2204MV.model.Test" target="tlir2204MV.model.Intrebare">
-                  <point x="-44.75" y="-37.5" />
-                  <point x="91.25" y="607.0" />
-                  <point x="273.9771634615384" y="607.0" />
-                  <point x="-63.9375" y="115.0" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.DuplicateIntrebareException">
-                  <point x="74.69999999999999" y="-37.5" />
-                  <point x="438.07500000000005" y="1250.0" />
-                  <point x="1457.0" y="1250.0" />
-                  <point x="1457.0" y="617.0" />
-                  <point x="1398.9871794871794" y="617.0" />
-                  <point x="65.0" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.repository.IntrebariRepository" target="tlir2204MV.exception.DuplicateIntrebareException">
-                  <point x="115.125" y="-137.0" />
-                  <point x="793.125" y="617.0" />
-                  <point x="1268.9871794871794" y="617.0" />
-                  <point x="-65.0" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.InputValidationFailedException">
-                  <point x="-74.69999999999993" y="-37.5" />
-                  <point x="288.67500000000007" y="1250.0" />
-                  <point x="3.59375" y="1250.0" />
-                  <point x="3.59375" y="100.0" />
-                  <point x="175.3834134615384" y="100.0" />
-                  <point x="-68.5" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Test">
-                  <point x="-134.66666666666663" y="-104.5" />
-                  <point x="379.33333333333337" y="961.0" />
-                  <point x="136.0" y="961.0" />
-                  <point x="0.0" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.NotAbleToCreateStatisticsException">
-                  <point x="58.10000000000002" y="-37.5" />
-                  <point x="421.475" y="1240.0" />
-                  <point x="1371.5" y="1240.0" />
-                  <point x="75.0" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Intrebare">
-                  <point x="0.0" y="-104.5" />
-                  <point x="514.0" y="617.0" />
-                  <point x="359.2271634615384" y="617.0" />
-                  <point x="21.3125" y="115.0" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Intrebare">
-                  <point x="-58.099999999999966" y="-37.5" />
-                  <point x="305.2750000000001" y="1240.0" />
-                  <point x="25.0" y="1240.0" />
-                  <point x="25.0" y="587.0" />
-                  <point x="188.7271634615384" y="587.0" />
-                  <point x="-149.1875" y="115.0" />
-                </edge>
-                <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.exception.NotAbleToCreateStatisticsException">
-                  <point x="134.66666666666663" y="-104.5" />
-                  <point x="648.6666666666666" y="961.0" />
-                  <point x="1221.5" y="961.0" />
-                  <point x="-75.0" y="37.5" />
-                </edge>
-                <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Test">
-                  <point x="-24.899999999999977" y="-37.5" />
-                  <point x="338.475" y="1220.0" />
-                  <point x="110.21915064102564" y="1220.0" />
-                  <point x="110.21915064102564" y="961.0" />
-                  <point x="76.33333333333337" y="961.0" />
-                  <point x="-59.66666666666663" y="37.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="940.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/DuplicateIntrebareException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/NotAbleToCreateStatisticsException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="24" column="148" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="148" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -228,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="1020">
               <caret line="83" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -241,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+            <state relative-caret-position="1451">
+              <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1560#1561#0" expanded="true" />
@@ -258,8 +98,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            <state relative-caret-position="352">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="57">
+              <caret line="31" column="100" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -279,6 +145,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -302,10 +169,12 @@
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/model/Statistica.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/controller/IntrebariController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java" />
       </list>
     </option>
   </component>
@@ -316,7 +185,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -327,6 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -405,22 +276,70 @@
               <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552149560875" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553009332260" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tlir2204MV.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tlir2204MV.util" />
       <recent name="tlir2204MV.repository" />
@@ -444,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestIntrebare">
     <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tlir2204MV.main.StartApp" />
       <module name="tlir2204" />
@@ -458,8 +377,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestIntrebare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tlir2204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tlir2204MV.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tlir2204MV.controller" />
+      <option name="MAIN_CLASS_NAME" value="tlir2204MV.controller.TestIntrebare" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestIntrebare" />
         <item itemvalue="Application.StartApp" />
       </list>
     </recent_temporary>
@@ -474,39 +409,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551790536730</updated>
-      <workItem from="1552144564902" duration="2383000" />
+      <workItem from="1552144564902" duration="4548000" />
+      <workItem from="1552306166551" duration="1924000" />
+      <workItem from="1552544539198" duration="62000" />
+      <workItem from="1552984134209" duration="13618000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 38m 22s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 40m 26s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 41m 50s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 44m 58s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 46m 16s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 46m 56s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 47m 28s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 47m 46s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 16h 49m 28s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIntrebare - 2019.03.19 at 17h 21m 19s.xml">
+      <configuration name="TestIntrebare" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2383000" />
+    <option name="totallyTimeSpent" value="20152000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27184466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10805369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04727794" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3895184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33144477" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,30 +482,15 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/InputValidationFailedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/IntrebariController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -556,91 +508,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1505#1506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/tlir2204MV">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>tlir2204MV</OriginalElement>
           <nodes>
-            <node x="851.5" y="736.5">tlir2204MV.exception.NotAbleToCreateTestException</node>
-            <node x="362.5" y="981.0">tlir2204MV.controller.AppController</node>
+            <node x="245.5" y="736.5">tlir2204MV.exception.NotAbleToCreateTestException</node>
+            <node x="466.75" y="991.0">tlir2204MV.controller.AppController</node>
             <node x="46.5" y="736.5">tlir2204MV.model.Test</node>
-            <node x="280.375" y="1270.0">tlir2204MV.main.StartApp</node>
-            <node x="245.5" y="714.0">tlir2204MV.model.Statistica</node>
-            <node x="106.8834134615384" y="0.0">tlir2204MV.exception.InputValidationFailedException</node>
-            <node x="524.5" y="637.0">tlir2204MV.repository.IntrebariRepository</node>
-            <node x="208.4146634615384" y="125.0">tlir2204MV.util.InputValidation</node>
-            <node x="1203.9871794871794" y="414.5">tlir2204MV.exception.DuplicateIntrebareException</node>
-            <node x="167.4146634615384" y="337.0">tlir2204MV.model.Intrebare</node>
+            <node x="345.375" y="1280.0">tlir2204MV.main.StartApp</node>
+            <node x="868.5" y="714.0">tlir2204MV.model.Statistica</node>
+            <node x="133.8465544871795" y="0.0">tlir2204MV.exception.InputValidationFailedException</node>
+            <node x="541.5" y="637.0">tlir2204MV.repository.IntrebariRepository</node>
+            <node x="235.3778044871795" y="125.0">tlir2204MV.util.InputValidation</node>
+            <node x="1204.775641025641" y="414.5">tlir2204MV.exception.DuplicateIntrebareException</node>
+            <node x="194.3778044871795" y="337.0">tlir2204MV.model.Intrebare</node>
             <node x="1146.5" y="736.5">tlir2204MV.exception.NotAbleToCreateStatisticsException</node>
           </nodes>
           <notes />
           <edges>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.NotAbleToCreateTestException">
-              <point x="41.5" y="-37.5" />
-              <point x="404.875" y="1230.0" />
-              <point x="1057.75" y="1230.0" />
-              <point x="68.75" y="37.5" />
+              <point x="-8.299999999999955" y="-37.5" />
+              <point x="420.07500000000005" y="1220.0" />
+              <point x="257.02564102564094" y="1220.0" />
+              <point x="257.02564102564094" y="971.0" />
+              <point x="314.25" y="971.0" />
+              <point x="-68.75" y="37.5" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.controller.AppController">
               <point x="24.899999999999977" y="-37.5" />
-              <point x="388.275" y="1220.0" />
-              <point x="589.75" y="1220.0" />
+              <point x="453.275" y="1230.0" />
+              <point x="694.0" y="1230.0" />
               <point x="75.75" y="104.5" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Statistica">
-              <point x="-8.299999999999955" y="-37.5" />
-              <point x="355.07500000000005" y="1210.0" />
-              <point x="288.5" y="1210.0" />
-              <point x="-86.0" y="60.0" />
+              <point x="41.5" y="-37.5" />
+              <point x="469.875" y="1240.0" />
+              <point x="1083.5" y="1240.0" />
+              <point x="86.0" y="60.0" />
             </edge>
             <edge source="tlir2204MV.util.InputValidation" target="tlir2204MV.exception.InputValidationFailedException">
               <point x="0.0" y="-81.0" />
-              <point x="337.9146634615384" y="100.0" />
-              <point x="312.3834134615384" y="100.0" />
+              <point x="364.8778044871795" y="100.0" />
+              <point x="339.3465544871795" y="100.0" />
               <point x="68.5" y="37.5" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Statistica">
-              <point x="-67.33333333333326" y="-104.5" />
-              <point x="446.66666666666674" y="941.0" />
-              <point x="374.5" y="941.0" />
-              <point x="0.0" y="60.0" />
+              <point x="67.33333333333337" y="-104.5" />
+              <point x="685.5833333333334" y="951.0" />
+              <point x="911.5" y="951.0" />
+              <point x="-86.0" y="60.0" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.repository.IntrebariRepository">
-              <point x="67.33333333333337" y="-104.5" />
-              <point x="581.3333333333334" y="941.0" />
-              <point x="754.75" y="941.0" />
+              <point x="33.66666666666674" y="-104.5" />
+              <point x="651.9166666666667" y="941.0" />
+              <point x="771.75" y="941.0" />
               <point x="76.75" y="137.0" />
             </edge>
             <edge source="tlir2204MV.model.Intrebare" target="tlir2204MV.util.InputValidation">
@@ -648,92 +571,94 @@
               <point x="0.0" y="81.0" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.exception.NotAbleToCreateTestException">
-              <point x="101.0" y="-104.5" />
-              <point x="615.0" y="951.0" />
-              <point x="920.25" y="951.0" />
-              <point x="-68.75" y="37.5" />
+              <point x="-67.33333333333326" y="-104.5" />
+              <point x="550.9166666666667" y="941.0" />
+              <point x="451.75" y="941.0" />
+              <point x="68.75" y="37.5" />
             </edge>
             <edge source="tlir2204MV.repository.IntrebariRepository" target="tlir2204MV.model.Intrebare">
               <point x="-115.125" y="-137.0" />
-              <point x="562.875" y="607.0" />
-              <point x="401.8521634615384" y="607.0" />
+              <point x="579.875" y="607.0" />
+              <point x="428.8153044871795" y="607.0" />
               <point x="63.9375" y="115.0" />
             </edge>
             <edge source="tlir2204MV.model.Test" target="tlir2204MV.model.Intrebare">
               <point x="-44.75" y="-37.5" />
               <point x="91.25" y="607.0" />
-              <point x="273.9771634615384" y="607.0" />
+              <point x="300.9403044871795" y="607.0" />
               <point x="-63.9375" y="115.0" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.DuplicateIntrebareException">
               <point x="74.69999999999999" y="-37.5" />
-              <point x="438.07500000000005" y="1250.0" />
-              <point x="1457.0" y="1250.0" />
+              <point x="503.075" y="1260.0" />
+              <point x="1457.0" y="1260.0" />
               <point x="1457.0" y="617.0" />
-              <point x="1398.9871794871794" y="617.0" />
+              <point x="1399.775641025641" y="617.0" />
               <point x="65.0" y="37.5" />
             </edge>
             <edge source="tlir2204MV.repository.IntrebariRepository" target="tlir2204MV.exception.DuplicateIntrebareException">
               <point x="115.125" y="-137.0" />
-              <point x="793.125" y="617.0" />
-              <point x="1268.9871794871794" y="617.0" />
+              <point x="810.125" y="617.0" />
+              <point x="1269.775641025641" y="617.0" />
               <point x="-65.0" y="37.5" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.InputValidationFailedException">
               <point x="-74.69999999999993" y="-37.5" />
-              <point x="288.67500000000007" y="1250.0" />
-              <point x="3.59375" y="1250.0" />
+              <point x="353.67500000000007" y="1260.0" />
+              <point x="3.59375" y="1260.0" />
               <point x="3.59375" y="100.0" />
-              <point x="175.3834134615384" y="100.0" />
+              <point x="202.3465544871795" y="100.0" />
               <point x="-68.5" y="37.5" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Test">
               <point x="-134.66666666666663" y="-104.5" />
-              <point x="379.33333333333337" y="961.0" />
+              <point x="483.58333333333337" y="961.0" />
               <point x="136.0" y="961.0" />
               <point x="0.0" y="37.5" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.exception.NotAbleToCreateStatisticsException">
               <point x="58.10000000000002" y="-37.5" />
-              <point x="421.475" y="1240.0" />
-              <point x="1371.5" y="1240.0" />
+              <point x="486.475" y="1250.0" />
+              <point x="1371.5" y="1250.0" />
               <point x="75.0" y="37.5" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.model.Intrebare">
-              <point x="0.0" y="-104.5" />
-              <point x="514.0" y="617.0" />
-              <point x="359.2271634615384" y="617.0" />
+              <point x="-33.66666666666663" y="-104.5" />
+              <point x="584.5833333333334" y="931.0" />
+              <point x="531.0" y="931.0" />
+              <point x="531.0" y="617.0" />
+              <point x="386.1903044871795" y="617.0" />
               <point x="21.3125" y="115.0" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Intrebare">
               <point x="-58.099999999999966" y="-37.5" />
-              <point x="305.2750000000001" y="1240.0" />
-              <point x="25.0" y="1240.0" />
+              <point x="370.27500000000003" y="1250.0" />
+              <point x="25.0" y="1250.0" />
               <point x="25.0" y="587.0" />
-              <point x="188.7271634615384" y="587.0" />
+              <point x="215.6903044871795" y="587.0" />
               <point x="-149.1875" y="115.0" />
             </edge>
             <edge source="tlir2204MV.controller.AppController" target="tlir2204MV.exception.NotAbleToCreateStatisticsException">
               <point x="134.66666666666663" y="-104.5" />
-              <point x="648.6666666666666" y="961.0" />
-              <point x="1221.5" y="961.0" />
+              <point x="752.9166666666666" y="971.0" />
+              <point x="1221.5" y="971.0" />
               <point x="-75.0" y="37.5" />
             </edge>
             <edge source="tlir2204MV.main.StartApp" target="tlir2204MV.model.Test">
               <point x="-24.899999999999977" y="-37.5" />
-              <point x="338.475" y="1220.0" />
-              <point x="110.21915064102564" y="1220.0" />
-              <point x="110.21915064102564" y="961.0" />
-              <point x="76.33333333333337" y="961.0" />
+              <point x="403.475" y="1230.0" />
+              <point x="127.89383012820525" y="1230.0" />
+              <point x="127.89383012820525" y="971.0" />
+              <point x="76.33333333333337" y="971.0" />
               <point x="-59.66666666666663" y="37.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="283.0" y="940.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="605.0" y="974.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
-            <Category>Methods</Category>
             <Category>Constructors</Category>
+            <Category>Methods</Category>
             <Category>Properties</Category>
             <Category>Inner Classes</Category>
           </Categories>
@@ -742,24 +667,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/DuplicateIntrebareException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/InputValidationFailedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -773,6 +688,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/exception/NotAbleToCreateTestException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -780,10 +705,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="24" column="148" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="74" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        <state relative-caret-position="1451">
+          <caret line="96" column="57" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1560#1561#0" expanded="true" />
@@ -792,5 +751,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="31" column="100" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tlir2204</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: backport-util-concurrent:backport-util-concurrent:3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

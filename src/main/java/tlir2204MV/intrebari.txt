@@ -47,3 +47,109 @@ Enunt7?
 1
 F
 ##
+Enunt8?
+1)
+2)
+3)
+1
+G
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Aa?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Aa?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Aa?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Aa?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Aa?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+A?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
