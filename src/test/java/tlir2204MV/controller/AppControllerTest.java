@@ -5,6 +5,9 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import tlir2204MV.exception.NotAbleToCreateTestException;
+import tlir2204MV.model.Intrebare;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -27,10 +30,13 @@ public class AppControllerTest {
     public void verificaNrIntrebari() {
 
         appController.loadIntrebariFromFile(fisier4);
+
+
         try {
-            appController.createNewTest();
+            tlir2204MV.model.Test test = appController.createNewTest();
+            assertEquals(test.getIntrebari().size(),5);
         } catch (NotAbleToCreateTestException e) {
-            System.out.println(e.getMessage());
+            assertEquals("Nu exista suficiente intrebari pentru crearea unui test!(5)",e.getMessage());
         }
     }
 
@@ -38,10 +44,12 @@ public class AppControllerTest {
     public void verificaNrDomenii() {
 
         appController.loadIntrebariFromFile(fisier4Domenii);
+
         try {
-            appController.createNewTest();
+            tlir2204MV.model.Test test = appController.createNewTest();
+            assertEquals(test.getIntrebari().size(),5);
         } catch (NotAbleToCreateTestException e) {
-            System.out.println(e.getMessage());
+            assertEquals("Nu exista suficiente domenii pentru crearea unui test!(5)",e.getMessage());
         }
     }
 
@@ -50,7 +58,8 @@ public class AppControllerTest {
 
         appController.loadIntrebariFromFile(fisier);
         try {
-            appController.createNewTest();
+            tlir2204MV.model.Test test = appController.createNewTest();
+            assertEquals(test.getIntrebari().size(),5);
         } catch (NotAbleToCreateTestException e) {
             System.out.println(e.getMessage());
         }

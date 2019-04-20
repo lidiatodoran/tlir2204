@@ -33,3 +33,66 @@ Enunt5?
 1
 E
 ##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##
+Enunt test?
+1) Varianta 1
+2) Varianta 2
+3) Varianta 3
+1
+Domeniu
+##

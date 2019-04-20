@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c13ee0e-8190-48ff-81f8-da7814a33155" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierEmpty.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tlir2204$AppControllerTest.ic" NAME="AppControllerTest Coverage Results" MODIFIED="1554654045343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/tlir2204$AppControllerTest.ic" NAME="AppControllerTest Coverage Results" MODIFIED="1554723228129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tlir2204MV.controller.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/tlir2204$StartApp.ic" NAME="StartApp Coverage Results" MODIFIED="1551808691922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -24,15 +24,15 @@
     </SUITE>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="28" />
+    <option name="myElementSize" value="93" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="50" column="55" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="55" />
+            <state relative-caret-position="1173">
+              <caret line="94" column="58" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,30 +41,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="143">
+              <caret line="66" column="99" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1402#1403#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1505#1506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,56 +55,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="342">
               <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTestF03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-68">
+              <caret line="16" selection-start-line="15" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="200">
+              <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4.txt">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="196">
+              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4domenii.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="23" column="67" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="67" />
+            <state relative-caret-position="85">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,10 +101,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/fisierEmpty.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="34">
+              <caret line="16" selection-start-line="15" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -176,9 +163,14 @@
         <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4domenii.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4domenii.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTestF03.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java" />
       </list>
     </option>
   </component>
@@ -190,8 +182,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="837" />
-    <option name="width" value="1092" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -200,6 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,15 +243,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,15 +253,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tlir2204" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tlir2204MV" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tlir2204" type="b2602c69:ProjectViewProjectNode" />
@@ -321,14 +297,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554657621423" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555770808411" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -341,14 +315,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="tlir2204MV.controller" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tlir2204MV.util" />
-      <recent name="tlir2204MV.repository" />
-      <recent name="tlir2204MV.main" />
-      <recent name="tlir2204MV.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Semestrul 2\Validare si verificare\Laborator 1\tlir2204\src\main\java\tlir2204MV" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tlir2204MV.controller" />
+      <recent name="tlir2204MV.util" />
+      <recent name="tlir2204MV.repository" />
+      <recent name="tlir2204MV.main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Semestrul 2\Validare si verificare\Laborator 1\tlir2204\src\main\java\tlir2204MV" />
@@ -368,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppControllerTest">
+  <component name="RunManager" selected="JUnit.TopDown">
     <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tlir2204MV.main.StartApp" />
       <module name="tlir2204" />
@@ -397,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntrebare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppControllerTestF03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tlir2204" />
       <extension name="coverage">
         <pattern>
@@ -406,13 +383,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tlir2204MV.controller" />
-      <option name="MAIN_CLASS_NAME" value="tlir2204MV.controller.TestIntrebare" />
+      <option name="MAIN_CLASS_NAME" value="tlir2204MV.controller.AppControllerTestF03" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tlir2204MV.controller in tlir2204" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BigBang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tlir2204" />
       <extension name="coverage">
         <pattern>
@@ -421,26 +398,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tlir2204MV.controller" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="PARAMETERS" value="" />
+      <option name="MAIN_CLASS_NAME" value="tlir2204MV.controller.BigBang" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopDown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tlir2204" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tlir2204MV.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tlir2204MV.controller" />
+      <option name="MAIN_CLASS_NAME" value="tlir2204MV.controller.TopDown" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.StartApp" />
-      <item itemvalue="JUnit.tlir2204MV.controller in tlir2204" />
-      <item itemvalue="JUnit.TestIntrebare" />
       <item itemvalue="JUnit.AppControllerTest" />
+      <item itemvalue="JUnit.AppControllerTestF03" />
+      <item itemvalue="JUnit.BigBang" />
+      <item itemvalue="JUnit.TopDown" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopDown" />
+        <item itemvalue="JUnit.BigBang" />
         <item itemvalue="JUnit.AppControllerTest" />
-        <item itemvalue="JUnit.tlir2204MV.controller in tlir2204" />
+        <item itemvalue="JUnit.AppControllerTestF03" />
         <item itemvalue="Application.StartApp" />
-        <item itemvalue="JUnit.TestIntrebare" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +453,10 @@
       <workItem from="1553342336948" duration="1136000" />
       <workItem from="1553515718167" duration="757000" />
       <workItem from="1553586074209" duration="67000" />
-      <workItem from="1554643678337" duration="8085000" />
+      <workItem from="1554643678337" duration="8541000" />
+      <workItem from="1554721460094" duration="1642000" />
+      <workItem from="1554825371537" duration="594000" />
+      <workItem from="1555760786091" duration="7030000" />
     </task>
     <task id="LOCAL-00001" summary="Teste">
       <created>1553009404590</created>
@@ -477,49 +472,55 @@
       <option name="project" value="LOCAL" />
       <updated>1553342830216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Teste">
+      <created>1554657691165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554657691165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestIntrebare - 2019.03.25 at 14h 18m 17s.xml">
-      <configuration name="TestIntrebare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestIntrebare - 2019.04.07 at 18h 20m 47s.xml">
-      <configuration name="TestIntrebare" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 18h 55m 50s.xml">
+    <history-entry file="AppControllerTest - 2019.04.20 at 15h 46m 12s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 18h 57m 50s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 15h 48m 11s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 11m 40s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 05m 09s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 13m 24s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 05m 52s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 15m 18s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 05m 58s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 18m 10s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 06m 41s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 20m 26s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 07m 04s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.07 at 19h 21m 20s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
+    <history-entry file="BigBang - 2019.04.20 at 16h 07m 41s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBang - 2019.04.20 at 16h 07m 53s.xml">
+      <configuration name="BigBang" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopDown - 2019.04.20 at 16h 40m 40s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30760000" />
+    <option name="totallyTimeSpent" value="40482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17718121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,18 +529,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27478755" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33821377" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39824304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.04957507" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.084919475" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33144477" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.2543624" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,6 +550,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Database" order="9" />
+      <window_info active="true" anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.2536913" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,16 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Statistica.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,16 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Intrebare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -789,16 +770,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
+        <state relative-caret-position="833">
           <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -808,51 +782,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="50" column="55" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="67" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari4domenii.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/util/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Statistica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/fisierEmpty.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="342">
           <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTestF03.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="-68">
+          <caret line="16" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TestIntrebare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="16" selection-start-line="15" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -861,8 +852,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="459">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="66" column="99" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="94" column="58" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
         </state>
       </provider>
     </entry>
