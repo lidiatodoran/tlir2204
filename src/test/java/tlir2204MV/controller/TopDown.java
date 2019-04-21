@@ -118,7 +118,7 @@ public class TopDown {
         appController.loadIntrebariFromFile(fisierTest);
         try {
             Statistica statistica = appController.getStatistica();
-            assertEquals(statistica.getIntrebariDomenii().size(),3);
+            assertEquals(statistica.getIntrebariDomenii().size(),4);
         } catch (NotAbleToCreateStatisticsException e) {
             assertEquals("Repository-ul nu contine nicio intrebare!",e.getMessage());
         }

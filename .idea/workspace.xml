@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c13ee0e-8190-48ff-81f8-da7814a33155" name="Default Changelist" comment="">
+    <list default="true" id="7c13ee0e-8190-48ff-81f8-da7814a33155" name="Default Changelist" comment="Teste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,18 +28,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="66" column="99" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/intrebari.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -55,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="374">
               <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
             </state>
           </provider>
@@ -67,17 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="35">
               <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+            <state relative-caret-position="250">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
             </state>
           </provider>
         </entry>
@@ -162,9 +152,9 @@
         <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTestF03.java" />
         <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/AppControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt" />
       </list>
     </option>
   </component>
@@ -318,7 +308,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555779888314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555868181706" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -475,7 +465,7 @@
       <workItem from="1555760786091" duration="8850000" />
       <workItem from="1555775775159" duration="482000" />
       <workItem from="1555777118104" duration="2603000" />
-      <workItem from="1555865427836" duration="640000" />
+      <workItem from="1555865427836" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="Teste">
       <created>1553009404590</created>
@@ -526,19 +516,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555779876789</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Teste">
+      <created>1555866449328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555866449328</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Teste">
+      <created>1555867524970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555867524970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BigBang - 2019.04.20 at 16h 05m 09s.xml">
-      <configuration name="BigBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigBang - 2019.04.20 at 16h 05m 52s.xml">
-      <configuration name="BigBang" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BigBang - 2019.04.20 at 16h 05m 58s.xml">
-      <configuration name="BigBang" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BigBang - 2019.04.20 at 16h 06m 41s.xml">
       <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
@@ -560,14 +555,24 @@
     <history-entry file="BigBang - 2019.04.20 at 19h 44m 43s.xml">
       <configuration name="BigBang" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopDown - 2019.04.21 at 20h 28m 52s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopDown - 2019.04.21 at 20h 33m 10s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopDown - 2019.04.21 at 20h 33m 45s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46027000" />
+    <option name="totallyTimeSpent" value="47541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -576,12 +581,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6427526" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28550512" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39824304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30161053" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.043923866" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33144477" />
@@ -853,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/main/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1598">
@@ -891,13 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -933,15 +924,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="35">
           <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/BigBang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="374">
           <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tlir2204MV/fisierTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tlir2204MV/controller/TopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
         </state>
       </provider>
     </entry>
